@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🔥 Ultimate Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="quiz-box">
+      <h1>🔥 Quiz Master</h1>
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+      <div id="question-box">
+        <h2 id="question">Loading...</h2>
+        <ul id="options"></ul>
+        <p id="feedback"></p>
+        <button id="next-btn" disabled>Next Question</button>
+      </div>
+      <div id="result-box" class="hidden">
+        <h2>🎉 Quiz Completed!</h2>
+        <p id="final-score"></p>
+        <button onclick="location.reload()">Restart</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
