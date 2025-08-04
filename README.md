@@ -21,3 +21,6 @@ An interactive and responsive quiz application built with HTML, CSS, and JavaScr
   <li>Phosphor Icons (icon library)</li>
   <li>Canvas Confetti (for celebration effect)</li>
 </ul>
+
+# App Demo 
+Link For Demo [Click Here](quiz-appforstudents.netlify.app)
